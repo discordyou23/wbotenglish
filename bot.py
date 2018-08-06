@@ -10,7 +10,6 @@ import requests as rq
 from champs import champs
 import os
 import apiai
-import image_links
 import random
 import time
 import bs4 as bs
