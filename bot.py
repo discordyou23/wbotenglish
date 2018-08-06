@@ -37,7 +37,7 @@ async def on_ready():
 #         global random_status_game
 #         random_status_game=random.choice(games)
 #         await asyncio.sleep(2)
-    await bot.change_presence(game=discord.Game(name='Whelp|Winvite-W Bot English','https://www.twitch.tv/v5bz'))
+    await bot.change_presence(game=discord.Game(name='Whelp|Winvite-W Bot English'))
 
 
 
