@@ -24,7 +24,7 @@ from discord.utils import get
 bot_token = os.environ['BOT_TOKEN']
 An = Pymoe.Anilist()
 
-bot = commands.Bot(command_prefix='s.')  # SETUP BOT COMMAND PREFIX
+bot = commands.Bot(command_prefix='W')  # SETUP BOT COMMAND PREFIX
 
 
 @bot.event
@@ -37,7 +37,7 @@ async def on_ready():
 #         global random_status_game
 #         random_status_game=random.choice(games)
 #         await asyncio.sleep(2)
-    await bot.change_presence(game=discord.Game(name='Jump Rope Kitten'))
+    await bot.change_presence(game=discord.Game(name='Whelp|Winvite-W Bot English'))
 
 
 
@@ -559,7 +559,7 @@ async def randomshow(ctx):
 @bot.command(pass_context=True)
 async def invite(ctx):
     """GET AN INVITE LINK FOR THIS DISCORD BOT. EX: s.invite"""
-    await bot.say("Here is the invite link for {}\n{}".format(bot.user.name, 'https://discordapp.com/oauth2/authorize?client_id=403402614454353941&scope=bot'))
+    await bot.say("Here is the invite link for {}\n{}".format(bot.user.name, 'https://discordapp.com/oauth2/authorize?client_id=475811540487110666&scope=bot&permissions=8'))
 
 
 @bot.command(pass_context=True)
