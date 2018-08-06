@@ -21,6 +21,7 @@ from discord.utils import get
 
 
 #GETTING API KEYS FROM HEROKU
+bot_token = os.environ['BOT_TOKEN']
 An = Pymoe.Anilist()
 
 bot = commands.Bot(command_prefix='s.')  # SETUP BOT COMMAND PREFIX
