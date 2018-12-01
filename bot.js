@@ -13,9 +13,6 @@ client.user.setGame(`_Royal force AutoRole`);
 
 
 
-
-
-
 let ar = JSON.parse(fs.readFileSync(`./league/AutoRole.json`, `utf8`))
 
 
@@ -75,6 +72,16 @@ Role : __${ar[message.guild.id].role}__`)
     fs.writeFile("./league/AutoRole.json", JSON.stringify(ar), (err) => {
     if (err) console.error(err)
   });
+
+
+})
+
+
+
+client.on('ready', () => {
+  console.log(`AutoRole Code Started By Friends Team`);
+    client.user.setStatus("dnd")
+});
 
 
 
